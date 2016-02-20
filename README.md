@@ -30,7 +30,9 @@ FT-HTML presupposes a layered system substrate to underpin Structural Meaning
 as [link relations][1]. We are injecting a dictionary of fault-tolerance link 
 relation types, largely informed by Principles of URI/ID Design. 
 
+<p align="center">
 ![H Factors - HTML](http://amundsen.com/images/hypermedia/hfactors-html.png)
+</p>
 
 FT-relations as *control links* share the namespace of link relations, typically 
 descriptive of internetworking documents. FT-relations are Structural Meanings, 
