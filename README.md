@@ -9,17 +9,17 @@ can be richly declared in HTML.
 So, consider a fictional outline of a (potentially) Broadly Layered system 
 of Bitcoin:
 
-1. Network Layer
+1. Network Layer  
    Capabilities might involve `recovery` or `reconfig`
-2. Serialization Layer
+2. Serialization Layer  
    Capabilities might involve `sequential-retry` or `reconfig`
-3. P2P Layer
+3. P2P Layer  
    Capabilities might involve `parallel-recovery` or `reintegration`
-4. Memory Pool Layer
+4. Memory Pool Layer  
    Capabilities might involve `parallel-diagnosis` or `rollback`
-5. Chaining Layer
+5. Chaining Layer  
    Capabilities might involve `restart` or `repair`
-6. Sanitization Layer
+6. Sanitization Layer  
    Capabilities might involve `reintegrate` or `rollback`
 7. Wallet Layer  
    Capabilities might involve `retry` or `skip` or `mask`
