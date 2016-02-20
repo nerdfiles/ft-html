@@ -7,14 +7,19 @@ Systems.
 ## Overview
 
 FT-HTML presupposes a layered system substrate to underpin Structural Meaning 
-as *link relations*. We are injecting a dictionary of fault-tolerance link 
+as [link relations](http://www.iana.org/assignments/link-relations/link-relations.xhtml). We are injecting a dictionary of fault-tolerance link 
 relation types, largely informed by Principles of URI/ID Design. 
 
-Said article informs a broader space of Structural Meaning, whereas our 
-purpose here is to offer up the prototypal default namespace of 
-fault-tolerance, and, with any luck, Reference Implementation Examples to 
-elucidate where value is met in such an extension to HTML. The following may 
-be prefixed with `FT-*`:
+![H Factors - HTML](http://amundsen.com/images/hypermedia/hfactors-html.png)
+
+FT-relations as *control links* share the namespace of link relations, typically 
+descriptive of internetworking documents. FT-relations are Structural Meanings, 
+as opposed to Semantic Meanings which describe Accessibility, whose purpose is 
+to declaratively implement the Availability of the any general-purpose 
+distributed network and annotate control data with fault-tolerance strategies.
+
+We outline Reference Implementation Examples to elucidate where value is met in 
+such an extension to HTML. The following may be prefixed with `ft-*`:
 
     Diagnosis
     Reconfig (See Tendermint, but with bettyfiles as the config space)
