@@ -31,7 +31,7 @@ as [link relations][1]. We are injecting a dictionary of fault-tolerance link
 relation types, largely informed by Principles of URI/ID Design. 
 
 <p align="center">
-<img src="H Factors - HTML" src="http://amundsen.com/images/hypermedia/hfactors-html.png" />
+<img alt="H Factors - HTML" src="http://amundsen.com/images/hypermedia/hfactors-html.png" />
 </p>
 
 FT-relations as *control links* share the namespace of link relations, typically 
